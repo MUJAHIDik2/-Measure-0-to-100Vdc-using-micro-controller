@@ -32,7 +32,7 @@ void main(){
     unsigned int adc_value;
     float voltage, input_voltage;
 
-    TRISB = 0xFF;  // Configure PORTA as input
+    TRISA = 0xFF;  // Configure PORTA as input
     ADC_Init();  // Initialize ADC
 
     while(1){
